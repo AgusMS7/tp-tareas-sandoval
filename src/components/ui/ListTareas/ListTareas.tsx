@@ -34,7 +34,7 @@ export const ListTareas = () => {
             <div className={styles.containerPrincipal}>
                 <div className={styles.containerTitleAndButton}>
                     <h2>Lista de tareas</h2>
-                    <button onClick={()=>{setOpenModalTarea(true)}}>Agregar tarea</button>
+                    <button className={styles.addButton} onClick={()=>{setOpenModalTarea(true)}}>Agregar tarea</button>
                 </div>
                 <div className={styles.containerList}>
                     {
